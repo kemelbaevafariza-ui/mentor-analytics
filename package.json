@@ -1,0 +1,28 @@
+{
+  "name": "mentor-analytics",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p . && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "sample": "node scripts/make-sample.mjs"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21",
+    "vite-plugin-singlefile": "^2.3.3",
+    "vitest": "^2.1.9"
+  }
+}
